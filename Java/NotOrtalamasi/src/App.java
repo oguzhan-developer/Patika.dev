@@ -24,6 +24,8 @@ public class App {
         System.out.print("Müzik Notunuzu Giriniz: ");
         muzik = s.nextInt();
 
+        s.close();
+        
         double ort = (matematik+fizik+kimya+turkce+tarih+muzik) / 6;
 
         boolean sonuc = ort > 60 ? true : false;
